@@ -14,6 +14,9 @@
 		602F974A2AEE3A2300A4CDA2 /* uppgift5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F97492AEE3A2300A4CDA2 /* uppgift5Tests.swift */; };
 		602F97542AEE3A2300A4CDA2 /* uppgift5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F97532AEE3A2300A4CDA2 /* uppgift5UITests.swift */; };
 		602F97562AEE3A2300A4CDA2 /* uppgift5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F97552AEE3A2300A4CDA2 /* uppgift5UITestsLaunchTests.swift */; };
+		602F97632AEE3A8A00A4CDA2 /* ImageClassificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F97622AEE3A8A00A4CDA2 /* ImageClassificationModel.swift */; };
+		602F97652AEE3AF500A4CDA2 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F97642AEE3AF500A4CDA2 /* ImageView.swift */; };
+		602F976B2AEE4EB700A4CDA2 /* AnimalClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 602F976A2AEE4EB700A4CDA2 /* AnimalClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		602F974F2AEE3A2300A4CDA2 /* uppgift5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uppgift5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		602F97532AEE3A2300A4CDA2 /* uppgift5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uppgift5UITests.swift; sourceTree = "<group>"; };
 		602F97552AEE3A2300A4CDA2 /* uppgift5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uppgift5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		602F97622AEE3A8A00A4CDA2 /* ImageClassificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationModel.swift; sourceTree = "<group>"; };
+		602F97642AEE3AF500A4CDA2 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		602F976A2AEE4EB700A4CDA2 /* AnimalClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = AnimalClassifier.mlmodel; path = "../../trained models/AnimalClassifier.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,13 @@
 		602F97372AEE3A2200A4CDA2 /* uppgift5 */ = {
 			isa = PBXGroup;
 			children = (
+				602F976A2AEE4EB700A4CDA2 /* AnimalClassifier.mlmodel */,
 				602F97382AEE3A2200A4CDA2 /* uppgift5App.swift */,
 				602F973A2AEE3A2200A4CDA2 /* ContentView.swift */,
 				602F973C2AEE3A2300A4CDA2 /* Assets.xcassets */,
 				602F973E2AEE3A2300A4CDA2 /* Preview Content */,
+				602F97622AEE3A8A00A4CDA2 /* ImageClassificationModel.swift */,
+				602F97642AEE3AF500A4CDA2 /* ImageView.swift */,
 			);
 			path = uppgift5;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602F976B2AEE4EB700A4CDA2 /* AnimalClassifier.mlmodel in Sources */,
+				602F97652AEE3AF500A4CDA2 /* ImageView.swift in Sources */,
 				602F973B2AEE3A2200A4CDA2 /* ContentView.swift in Sources */,
 				602F97392AEE3A2200A4CDA2 /* uppgift5App.swift in Sources */,
+				602F97632AEE3A8A00A4CDA2 /* ImageClassificationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
